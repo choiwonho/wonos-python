@@ -1,4 +1,5 @@
 number = int(input())
+
 if number < 10:
     a, b = 0, str(number)
 else:
