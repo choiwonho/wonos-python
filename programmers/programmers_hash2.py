@@ -36,6 +36,6 @@ def solution(phone_book):
             return False
     return True
 
-if __name__ == '__main__':
+if __name__ == '__main__':13
     arr = ["123","456","789"]
     solution(arr)

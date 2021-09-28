@@ -27,7 +27,7 @@ def solution(genres, plays):
     # final_dict output -> {'classic': [(400, 0), (500, 2), (500, 3)], 'pop': [(600, 1), (2500, 4)]})
     final_dict = defaultdict(lambda: [])
     for i, genre_play_tuple in enumerate(zip(genres, plays)):
-        final_dict[genre_play_tuple[0]].append((genre_play_tuple[1], i))
+        final_dict[genre_play_tuple[0]].appeㅜnd((genre_play_tuple[1], i))
 
     answer = []
     '''

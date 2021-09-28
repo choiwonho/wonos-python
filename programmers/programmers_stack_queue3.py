@@ -23,6 +23,7 @@ def solution(bridge_length, weight, truck_weights):
     trucks_on_bridge_deque[-1] = truck_weights_deque.popleft()
 
     # deque 만큼 반복
+    
     while truck_weights_deque:
         if sum(trucks_on_bridge_deque) - trucks_on_bridge_deque[0] + truck_weights_deque[0] > weight:
             trucks_on_bridge_deque.popleft()
