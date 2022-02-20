@@ -12,7 +12,7 @@ array.sort()
 
 for i in array:
     a = i[0]
-    heapq.heappush(q, i[0])
+    heapq.heappush(q, i[1])
     # 데드라인을 초과하는 경우에는 최소 원소를 제거
     if a < len(q):
         heapq.heappop(q)
